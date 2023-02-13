@@ -1,0 +1,11 @@
+Produto;Numero de Vendas;Valor Total
+Pepsi;4;6.0
+Bolachas;0;0.0
+Chocolate;0;0.0
+Agua;1;0.8
+Sumo Laranja;1;1.2
+Batatas;0;0.0
+Pastilhas;1;1.0
+Bolo;5;10.0
+Sandes Mista;0;0.0
+Amendoins;0;0.0

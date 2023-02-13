@@ -1,0 +1,50 @@
+# Default tool name (equipping a skin will override this name)
+toolName: 'Cryo Hoe'
+
+# Maximum level tools can achieve
+maxLevel: 100
+# Levels until an extra drop is achieved
+# Setting to below level 1, above max level or an invalid value will disable the ability
+levelsForExtraDrop: 5
+# List of crops
+# block - block broken
+# drop = drop from block
+# exp = experience per block
+# value - money gained from block (will only be used if a shop plugin is not found)
+# Before adding to this list, make sure to maintain order and to input correct material types
+cropList:
+  0:
+    block: WHEAT
+    exp: 2.0
+  1:
+    block: CARROTS
+    exp: 2.0
+  2:
+    block: POTATOES
+    exp: 2.0
+  3:
+    block: NETHER_WART
+    exp: 2.0
+  4:
+    block: MELON
+    exp: 2.0
+  5:
+    block: PUMPKIN
+    exp: 2.0
+
+# Experience required per level - (level/x)^y + maxLevel
+xValue: 0.5
+yValue: 2
+# Enable/Disable functionalities
+enableExtraDrops: true
+enableAutoSell: true
+enableAutoReplant: true
+# Unlocks abilities at given level
+# Setting to below level 1, above max level or an invalid value will disable the ability
+autoSellLevel: 5
+autoReplantLevel: 5
+models:
+  NETHERITE_HOE:
+    0:
+      id: 1
+      name: '&1Test'

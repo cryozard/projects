@@ -1,0 +1,32 @@
+name: ToolsEnhanced
+version: '${project.version}'
+main: toolsenhanced.toolsenhanced.CryoTools
+api-version: 1.19
+authors: [ cryozard ]
+softdepend:
+  - WorldGuard
+  - GriefPrevention
+  - ShopGUIPlus
+  - Vault
+commands:
+  cryotools:
+    description: Opens GUI
+permissions:
+  cryotools.give:
+    default: op
+    description: Gives user tool
+  cryotools.set:
+    default: op
+    description: Sets tool level
+  cryotools.help:
+    default: op
+    description: Shows plugin usage
+  cryotools.info:
+    default: op
+    description: Shows tool info
+  cryotools.skins:
+    default: op
+    description: Opens Skins Menu
+  cryotools.skins.set:
+    default: op
+    description: Unlocks/Locks skin for player
